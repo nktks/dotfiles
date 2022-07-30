@@ -154,8 +154,8 @@ set splitright
 "変更中のファイルでも、保存しないで他のファイルを表示
 set hidden
 
-" マウスモード有効
-set mouse=a
+" マウスモード無効
+set mouse=
 " screen対応
 set ttymouse=xterm2
 
