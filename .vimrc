@@ -846,5 +846,5 @@ autocmd BufNewFile,BufRead *.rego set filetype=rego
 autocmd bufwritepost *.rego  silent !opa fmt -w %
 
 " cue
-" autocmd BufNewFile,BufRead *.cue set filetype=cue
-" autocmd bufwritepost *.cue  silent !cue fmt %
+autocmd BufNewFile,BufRead *.cue set filetype=cue
+autocmd bufwritepost *.cue  silent !cue fmt %
