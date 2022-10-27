@@ -39,4 +39,17 @@ EOF</content>
 			</snippet>
 		</snippets>
 	</folder>
+	<folder>
+		<title>wrench</title>
+		<snippets>
+			<snippet>
+				<title>apply</title>
+				<content>wrench --project ${GCP_PROJECT} \
+         --instance ${INSTANCE} \
+         --database ${DATABASE} \
+         apply \
+         --ddl ./ddl.sql</content>
+			</snippet>
+		</snippets>
+	</folder>
 </folders>
